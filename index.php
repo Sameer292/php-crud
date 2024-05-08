@@ -40,7 +40,7 @@
             </thead>
             <tbody>
                 <?php
-                include "connect.php";
+                include "./includes/connect.php";
 
                 // sql query to display from table
                 $sql = "SELECT * FROM students";
