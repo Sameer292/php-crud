@@ -1,5 +1,5 @@
 <?php
-include "connect.php";
+include "./connect.php";
 
 if (isset($_POST["submit"])) {
     $name = $_POST["name"];
@@ -16,7 +16,7 @@ if (isset($_POST["submit"])) {
         die(mysqli_connect_error());
     }
 
-    header("location: ./index.php");
+    header("location: ../index.php");
 }
 ?>
 
