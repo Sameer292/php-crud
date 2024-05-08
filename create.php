@@ -15,6 +15,8 @@ if (isset($_POST["submit"])) {
     if (!mysqli_query($conn, $sql)) {
         die(mysqli_connect_error());
     }
+
+    header("location: ./index.php");
 }
 ?>
 
