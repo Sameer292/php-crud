@@ -2,6 +2,6 @@
 
 Simple Web Application to Create, Read, Update and Delete Student Details.
 
-![](./demo1.png)
-![](./demo2.png)
-![](./demo3.png)
+![](./images/demo1.png)
+![](./images/demo2.png)
+![](./images/demo3.png)
