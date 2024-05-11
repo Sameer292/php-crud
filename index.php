@@ -72,35 +72,13 @@
                     ' . $row["roll"] . '
                     </td>
                     <td class="px-6 py-4 flex gap-4">
-                        <a href="#" class="font-medium text-blue-500 dark:text-blue-500 hover:underline">Edit</a>
-                        <a href="#" class="font-medium text-red-500 dark:text-red-500 hover:underline">Delete</a>
+                        <a href="./includes/update.php?updateid=' . $row["id"] . '" class="font-medium text-blue-500 dark:text-blue-500 hover:underline">Edit</a>
+                        <a href="./includes/delete.php?deleteid=' . $row["id"] . '" class="font-medium text-red-500 dark:text-red-500 hover:underline">Delete</a>
                     </td>
                 </tr>';
                     }
                 }
                 ?>
-                <!-- <tr
-                    class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                        1
-                    </th>
-                    <td class="px-6 py-4">
-                        Bishal Baniya
-                    </td>
-                    <td class="px-6 py-4">
-                        bishal@baniya.com
-                    </td>
-                    <td class="px-6 py-4">
-                        Education
-                    </td>
-                    <td class="px-6 py-4">
-                        79242005
-                    </td>
-                    <td class="px-6 py-4 flex gap-4">
-                        <a href="#" class="font-medium text-blue-500 dark:text-blue-500 hover:underline">Edit</a>
-                        <a href="#" class="font-medium text-red-500 dark:text-red-500 hover:underline">Delete</a>
-                    </td>
-                </tr> -->
             </tbody>
         </table>
     </div>
