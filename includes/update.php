@@ -21,7 +21,7 @@ if (isset($_POST["submit"])) {
     $faculty = $_POST["faculty"];
     $roll = $_POST["roll"];
 
-    // sql query to update table
+    // sql query to update  table
     $sql = "UPDATE students SET id = $id, name = '$name', email = '$email', faculty = '$faculty', roll = '$roll' WHERE id = $id";
 
     if (!mysqli_query($conn, $sql)) {
