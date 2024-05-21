@@ -1,7 +1,11 @@
 # PHP CRUD🐘
 
-Simple Web Application to Create, Read, Update and Delete Student Details.
+Simple Web Application to Create, Read, Update and Delete Student Details with Authentication and Authorization.
 
-![](./images/demo1.png)
-![](./images/demo2.png)
-![](./images/demo3.png)
+## Authentication and Authorization🔐
+
+![](./images/auth.gif)
+
+## CRUD Operations🔡
+
+![](./images/crud.gif)
